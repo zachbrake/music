@@ -133,8 +133,6 @@ class AlbumBusinessLayer extends BusinessLayer {
 	 */
 	public function removeCover($coverFileId){
 		$this->mapper->removeCover($coverFileId);
-		// find new cover
-		$this->findCovers();
 	}
 
 	/**
